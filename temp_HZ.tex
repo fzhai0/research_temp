@@ -1,0 +1,145 @@
+
+% a paper template based on Elsivier
+
+\documentclass[preprint,12pt]{elsarticle}
+\usepackage{bm}
+\usepackage{amssymb}
+% \usepackage[cmintegrals]{newtxmath}
+% \usepackage{scicite}
+\usepackage[colorlinks,linkcolor=red]{hyperref}
+\usepackage{natbib}
+\journal{Journal of Fluid Mechanics}
+
+\begin{document}
+
+\begin{frontmatter}
+
+
+% this is the title of the article
+\title{\textbf{Title of the Research}}
+
+
+% this is the authors list
+\author{Hanfeng Zhai$^{1,2,\ast}$}
+
+\address{$^{1}$Department of Mechanics, Shanghai University, \\SHANGDA Rd., Shanghai 200444, China}
+\address{$^{2}$Second Affiliation, University of Whatever, \\Address., State 000000, Country} 
+
+% this is the information of the corresponding author
+\address{$^{\ast}$\rm To whom correspondence should be addressed; E-mail:  frankzhai0@gmail.com}
+
+% put your abstract here
+\begin{abstract}
+
+Here is the abstract of the research. In this part, you can put your method and representative results in simple sentences.
+
+\end{abstract}
+
+\begin{keyword}Keyword A; Keyword B; Keyword C
+
+\end{keyword}
+
+\end{frontmatter}
+%---------------------------------------------%
+
+
+
+% this is the introduction part
+\section{Introduction}
+
+In the introduction part, you need to provide a overview and inspiration of your research.
+
+%---------------------------------------------%
+
+
+\section{Method}
+\subsection{Method I}
+
+
+
+Here we present a method for solving the presented problem; for example, we can write an equation here:
+$2x+3y=34$. \\
+\indent we can also write an equation in such a form:
+\begin{equation}
+    \mathbf{F} = m\mathbf{a}\label{01}
+    \end{equation}
+\indent We can cite the euqation as (\ref*{01}).
+
+You can also include an algorithm in the form of
+\begin{center}
+    \includegraphics[scale = 1.1]{algorithm.pdf} \\ 
+\end{center}
+\subsection{Method II}
+
+Another approach for the research work. You can include a figure in your research in the form of:
+
+\begin{center}
+    \includegraphics[scale = 0.5]{figure.pdf} \\ 
+\end{center}
+\begin{center}
+\noindent {\bf Fig. 1.} Caption for figures.
+\end{center}
+
+%---------------------------------------------%
+
+
+
+% this is the results of your research
+\section{Result and discussions}
+Here is your final results including many beatiful figures and plots. You can cite the reference like this [\citealp{01}].
+
+
+%---------------------------------------------%
+
+
+
+
+% this is the conclusion of your research
+\section{Conclusion}
+Here you briefly summarize your previous works and present some basic conclusions.
+
+
+%---------------------------------------------%
+
+% this is the conclusion of your research
+\section*{Acknowledgement}
+The author A would like to thank person A, person B, and person C for the valuable discussions. The authors declare no conflicts of interests.
+% \bibliography{1.bib}
+%---------------------------------------------%
+
+\bibliographystyle{IEEEtran}
+\bibliography{1.bib}
+
+
+% this is the references part
+\begin{thebibliography}{99}
+
+
+
+ \bibitem{01} X. Chen, D. Duan, and G.E. Karniadakis. Learning and meta-learning of stochastic advection–diffusion–reaction systems from sparse measurements. \emph{European Journal of Applied Mathematics}. \textbf{2020}, 1-24.
+ \bibitem{02} A, B, and C. Title of the work. \emph{Journal of Whatever}. \textbf{year}, number
+ \bibitem{03}  
+ \bibitem{04}
+ \bibitem{05}
+ \bibitem{06}
+\end{thebibliography}
+
+%---------------------------------------------%
+
+
+
+
+\section*{Appendix. Code and supplementary data}
+The code for running \({Algorithm\,1}\), \({Algorithm\,2}\), and \({Program\,1}\) is uploaded on \url{www.hanfengzhai.net}.
+
+\section*{Appendix. Proof for Theorem I}
+\indent You can add your proof for the theory given in the methods to make your reasoning more clear. 
+In this section, you can also give additonal equations, such as:
+\begin{equation}
+    \mathbf{\sigma} = \rm E \mathbf{\epsilon}\label{02}
+    \end{equation}
+
+
+\end{document}
+
+
